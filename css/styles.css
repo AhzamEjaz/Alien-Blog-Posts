@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.rightheader{
+    display: block;
+    padding: 0px;
+    margin: auto 0;
+
+}
+.rightheader h1{
+    color: #E135A7;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.rightheader p{
+    margin: 0;
+}
+/*nav bar*/
+
+.wrapper nav{
+    margin: 0 auto;
+
+}
+.wrapper nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+    border-top: 1px solid #E135A7;
+    border-bottom: 1px solid #A61F11;
+
+    padding:0;
+}
+
+.wrapper nav ul li{
+    list-style-type: none;
+    margin: 0 .2rem;
+}
+
+.wrapper nav a{
+    display: inline-block;
+    padding: .6rem 1rem;
+    color: #000;
+
+}
+.wrapper nav a:hover{
+    color: #84DE37;
+
+    text-decoration: none;
+    background-color: black;
+}
+
+article img{
+    float: left;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+
+
+article{
+    clear: both;
+    margin: 2rem 0rem;
+    height: 20%;
+    margin-bottom: 6rem;
+}
+
+
+.border-before-footer{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border-top: 1px solid #E135A7;
+    border-bottom: 1px solid #A61F11;
+}
+footer{
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    display: inline-block;
+    flex-basis: 5%;
+}
